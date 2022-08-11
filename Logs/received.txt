@@ -1,0 +1,193 @@
+['Medium BP Recovery', 2]
+['Medium BP Recovery', 2]
+['Large Stamina Recovery', 2]
+-----------------------------
+['Wis Character Enhancement', 10]
+['Small Fish', 5]
+-----------------------------
+['Aubrite', 5]
+['XL Weapon Enhancement', 7]
+['XL Weapon Enhancement', 7]
+-----------------------------
+-----------------------------
+['Small Battery', 6]
+['Glossy Weapon Enhancement', 18]
+['XL Weapon Enhancement', 8]
+-----------------------------
+['Small Battery', 6]
+['Medium Battery', 6]
+['Medium Battery', 6]
+-----------------------------
+['XL Character Enhancement', 8]
+-----------------------------
+['Glossy Weapon Enhancement', 10]
+['Moldavite', 5]
+['XL Weapon Enhancement', 5]
+-----------------------------
+['XL Character Enhancement', 5]
+-----------------------------
+['Gold Coin', 5]
+-----------------------------
+['Large BP Recovery', 2]
+-----------------------------
+['XL Character Enhancement', 5]
+['XL Character Enhancement', 5]
+['Wis Character Enhancement', 10]
+-----------------------------
+['XL Weapon Enhancement', 5]
+-----------------------------
+['XL Weapon Enhancement', 5]
+['XL Character Enhancement', 5]
+['Dex Character Enhancement', 10]
+-----------------------------
+['Large BP Recovery', 2]
+['Medium BP Recovery', 2]
+-----------------------------
+['Medium Battery', 5]
+['Small Battery', 5]
+['XL Character Enhancement', 5]
+-----------------------------
+['XL Weapon Enhancement', 5]
+-----------------------------
+['Medium Stamina Recovery', 2]
+-----------------------------
+['Explorer s Ticket', 2]
+['Medium Stamina Recovery', 2]
+['Large BP Recovery', 2]
+-----------------------------
+['Sturdy Nail', 5]
+['Small Battery', 5]
+-----------------------------
+['XL Character Enhancement', 5]
+['Dex Character Enhancement', 10]
+['Medium Battery', 5]
+-----------------------------
+['Moldavite', 5]
+['XL Weapon Enhancement', 5]
+-----------------------------
+['High quality Ink', 5]
+['XL Weapon Enhancement', 6]
+['XL Character Enhancement', 6]
+-----------------------------
+['XL Character Enhancement', 6]
+['Medium quality Ink', 5]
+-----------------------------
+['Large Stamina Recovery', 2]
+['Explorer s Ticket', 2]
+-----------------------------
+['Ins Character Enhancement', 12]
+['Sturdy Weapon Enhancement', 12]
+['Medium quality Ink', 5]
+-----------------------------
+['XL Weapon Enhancement', 6]
+['Heavy Weapon Enhancement', 12]
+['XL Feather Duster', 5]
+-----------------------------
+['Medium Feather Duster', 5]
+-----------------------------
+['Large BP Recovery', 2]
+['Explorer s Ticket', 2]
+-----------------------------
+['Ruby', 5]
+['Aubrite', 5]
+['Large Feather Duster', 5]
+-----------------------------
+['Large Feather Duster', 5]
+['Heavy Weapon Enhancement', 12]
+-----------------------------
+-----------------------------
+-----------------------------
+['Massive Meat Hunk', 5]
+['Elastic Weapon Enhancement', 14]
+['6 Vit Character Enhancement', 14]
+-----------------------------
+-----------------------------
+['Massive Fish', 6]
+['Small Fish', 6]
+['Large Fish', 6]
+-----------------------------
+['Massive Fish', 6]
+['Small Fish', 6]
+['Large Fish', 6]
+-----------------------------
+['XL Weapon Enhancement', 8]
+['Stainless Stee Wire', 6]
+-----------------------------
+['XL Weapon Enhancement', 8]
+['Stainless Stee Wire', 6]
+-----------------------------
+['Medium BP Recovery', 2]
+['Medium BP Recovery', 2]
+-----------------------------
+['XL Weapon Enhancement', 8]
+['6 Large Fish', 6]
+['Massive Fish', 6]
+-----------------------------
+['Small Fish', 6]
+['Small Fish', 6]
+['Medium Fish', 6]
+-----------------------------
+['Silver Coin', 6]
+-----------------------------
+['Large BP Recovery', 2]
+['Medium Stamina Recovery', 2]
+['Medium Stamina Recovery', 2]
+-----------------------------
+['Glossy Weapon Enhancement', 18]
+['XL Weapon Enhancement', 8]
+['Small Battery', 6]
+-----------------------------
+['Glossy Weapon Enhancement', 18]
+-----------------------------
+['Low quality Ink', 6]
+['Low quality Ink', 6]
+['Dex Character Enhancement', 18]
+-----------------------------
+-----------------------------
+['Silver Coin', 6]
+['Large Stamina Recovery', 2]
+['Large BP Recovery', 2]
+-----------------------------
+['Small Feather Duster', 7]
+['Large Feather Duster', 7]
+['Large Feather Duster', 7]
+-----------------------------
+['Medium Feather Duster', 7]
+['Sturdy Weapon Enhancement', 22]
+['Sturdy Weapon Enhancement', 22]
+-----------------------------
+['Gold Coin', 7]
+['Large Stamina Recovery', 2]
+-----------------------------
+['Explorer s Ticket', 2]
+['Silver Coin', 7]
+-----------------------------
+['Large Feather Duster', 7]
+['Large Feather Duster', 7]
+['XL Character Enhancement', 11]
+-----------------------------
+['Medium Feather Duster', 7]
+['Sturdy Weapon Enhancement', 22]
+['Medium Feather Duster', 7]
+-----------------------------
+['Vit Character Enhancement', 26]
+['XL Weapon Enhancement', 13]
+['XL Weapon Enhancement', 13]
+-----------------------------
+['Elastic Weapon Enhancement', 26]
+-----------------------------
+['Medium Stamina Recovery', 2]
+['Silver Coin', 8]
+['Silver Coin', 8]
+-----------------------------
+['Large Stamina Recovery', 2]
+['Explorer s Ticket', 2]
+['Medium BP Recovery', 2]
+-----------------------------
+['Medium Stamina Recovery', 2]
+['Explorer s Ticket', 2]
+-----------------------------
+['Vit Character Enhancement', 26]
+['XL Weapon Enhancement', 13]
+['XL Weapon Enhancement', 13]
+-----------------------------
