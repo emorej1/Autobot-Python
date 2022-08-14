@@ -81,7 +81,8 @@ def capture():
 
 #picks lowest value
 
-    if ireg3 < 75000:
+    if ireg3 < 78000:
+        print("Found Bot")
         click(1211, 414)
     else:
 

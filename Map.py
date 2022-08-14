@@ -287,7 +287,7 @@ time.sleep(0.7)
 
 close()
 time.sleep(3)
-chapter = 11
+chapter = 1
 mapCount = 0
 
 gotoMap()
@@ -917,7 +917,7 @@ if pyautogui.locateOnScreen('Girl.png', region=(1000, 60, 920, 500), grayscale=T
         if pyautogui.locateOnScreen('c1-11-1.png', region=(1000, 60, 920, 500), grayscale=True,confidence=0.97) != None:
             click(1250, 368)
             selectMap()
-            time.sleep(24)
+            time.sleep(26)
             click(1455, 315)
             time.sleep(0.5)
             clickauto()
@@ -947,7 +947,7 @@ if pyautogui.locateOnScreen('Girl.png', region=(1000, 60, 920, 500), grayscale=T
             click(1573, 366)
             selectMap()
             clickauto()
-            time.sleep(26.5)
+            time.sleep(28.2)
             clickauto()
             time.sleep(1)
             click(1455, 315)
