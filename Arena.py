@@ -61,7 +61,7 @@ def freeze():
           loading = 1
           print(counter)
           if counter == 100:
-              click(1199,57)
+              click(1226,62)
               time.sleep(1)
               click(1652,111)
               time.sleep(1)
@@ -101,9 +101,7 @@ while run < 80:
          print("I can see AConfirm")
          time.sleep(0.5)
          import Select
-         Select.capture() 
-         time.sleep(0.8)
-         click(1550,508)
+         Select.capture()
          time.sleep(2)
          count = 0
          run = 0

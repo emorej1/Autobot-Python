@@ -61,7 +61,7 @@ def startUp():
 def reset():
 
     time.sleep(1)
-    click(1196,62)
+    click(1226,62)
     time.sleep(1)
     click(1654,114)
     time.sleep(1)
@@ -97,17 +97,30 @@ loading = 1
 
 
 if checkIfProcessRunning('HD-Player'):
-    print('Bluestacks is open')
+    # print('Bluestacks is open')
+    # subprocess.call("taskkill /f /im HD-Player.exe", shell=True)
+    # time.sleep(5)
+    # subprocess.Popen("C:\Program Files\BlueStacks_nxt\HD-Player.exe")
+    time.sleep(2)
 
 else:
     subprocess.Popen("C:\Program Files\BlueStacks_nxt\HD-Player.exe")
     time.sleep(10)
 
+try:
+    win = pygetwindow.getWindowsWithTitle('BlueStacks 1')[0]
+    win.activate()
+    win.moveTo(1022,40)
+    win.size = (898,520)
 
-win = pygetwindow.getWindowsWithTitle('BlueStacks 1')[0]
-win.moveTo(1022,40)
-win.size = (898,520)
-win.activate()
+except:
+    subprocess.call("taskkill /f /im HD-Player.exe", shell=True)
+    time.sleep(10)
+    subprocess.Popen("C:\Program Files\BlueStacks_nxt\HD-Player.exe")
+    time.sleep(10)
+    win.activate()
+    win.moveTo(1022, 40)
+    win.size = (898, 520)
 
 time.sleep(5)
 

@@ -34,6 +34,28 @@ def convert(a):
             num = num + c           
     return(num)
 
+def bptopup():
+    time.sleep(2)
+    if pyautogui.locateOnScreen('BP.png', region=(1000,60,920,500),grayscale=True, confidence =0.95) != None:
+           print("I can see BP")
+           pyautogui.moveTo(1445, 362)
+           time.sleep(0.5)
+           pyautogui.scroll(-200)
+           time.sleep(1.5)
+           # Medium BP
+           click(1445, 362)
+           # Large BP
+          # click(1445, 440)
+           time.sleep(1)
+           click(1551, 505)
+           time.sleep(1.5)
+           click(1465, 451)
+           time.sleep(1)
+           click(1550,508)
+           time.sleep(3)
+
+
+
 #take screenshots of region
 def capture():
     iml = pyautogui.screenshot(region=(1160,215,140,45))
@@ -84,29 +106,83 @@ def capture():
     if ireg3 < 78000:
         print("Found Bot")
         click(1211, 414)
+        time.sleep(0.8)
+        click(1550, 508)
+        bptopup()
     else:
-
-        if ireg1 < ireg2:
-            print("Region 1 is less than 2")
-            if ireg1 < ireg3:
-                print("Clicked Region 1")
-                click(1211,229)
-
+        print("No Bot, Resetting")
+        count = 0
+        while count < 6:
+            count = count + 1
+            print("run:", count)
+            click(1211, 414)
+            time.sleep(0.8)
+            click(1550, 508)
+            bptopup()
+            time.sleep(8)
+            while pyautogui.locateOnScreen('Quit.png', region=(1000,60,920,500),grayscale=True, confidence =0.95) == None:
+                print("Waiting for Game")
+                time.sleep(2)
             else:
-                if ireg3 < ireg2:
-                    print("Clicked Region 3")
-                    click(1211,414)
-                else:
-                    ("Clicked Region 2")
-                    click(1211,313)
-        else:
-            print("Region 2 is less than 1")
-            if ireg2 < ireg3:
-                print("Clicked Region 2")
-                click(1211,313)
-            else:
-                print("Clicked Region 3")
-                click(1211,414)
+                time.sleep(5)
+                print("I can see Quit")
+                #quit menu button
+                click(1859,89)
+                time.sleep(1)
+                #quit button
+                click(1442,347)
+                time.sleep(1)
+                #confirm quit
+                click(1571,447)
+                time.sleep(9)
+                #confirm match end results
+                click(1681,371)
+                time.sleep(24)
+                click(1749,447)
+                time.sleep(3)
+                if count == 1:
+                    click(1285,161)
+                    time.sleep(1)
+                elif count == 6:
+                    click(1378,500)
+                    time.sleep(1)
+
+    # if ireg1 < ireg2:
+    #     print("Region 1 is less than 2")
+    #     if ireg1 < ireg3:
+    #         print("Clicked Region 1")
+    #         click(1211,229)
+    #         time.sleep(1)
+    #         click(1550, 508)
+    #         bptopup()
+    #
+    #     else:
+    #         if ireg3 < ireg2:
+    #             print("Clicked Region 3")
+    #             click(1211,414)
+    #             time.sleep(1)
+    #             click(1550, 508)
+    #             bptopup()
+    #         else:
+    #             ("Clicked Region 2")
+    #             click(1211,313)
+    #             time.sleep(1)
+    #             click(1550, 508)
+    #             bptopup()
+    # else:
+    #     print("Region 2 is less than 1")
+    #     if ireg2 < ireg3:
+    #         print("Clicked Region 2")
+    #         click(1211,313)
+    #         time.sleep(1)
+    #         click(1550, 508)
+    #         bptopup()
+    #     else:
+    #         print("Clicked Region 3")
+    #         click(1211,414)
+    #         time.sleep(1)
+    #         click(1550, 508)
+    #         bptopup()
 
 
 

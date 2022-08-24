@@ -160,7 +160,7 @@ def checkMap(x):
         time.sleep(1)
     elif x == 13:
         click(1201, 136)
-        time.sleep(1)
+        time.sleep(2)
         click(1110, 293)
         time.sleep(1)
     elif x == 14:
@@ -181,13 +181,17 @@ def checkMap(x):
 
 
 def checkLoot():
-    returned = []
+    resetcount = 0
     time.sleep(1)
     click(1695, 496)
     time.sleep(5)
     while pyautogui.locateOnScreen('Obtained.png', region=(1000, 60, 920, 500), grayscale=True,
                                    confidence=0.90) == None:
         time.sleep(2)
+        resetcount = resetcount + 1
+        if resetcount == 6:
+            print('Found nothing, returning to map')
+        break
 
     else:
         if pyautogui.locateOnScreen('Obtained.png', region=(1000, 60, 920, 500), grayscale=True, confidence=0.90) != None:
@@ -214,7 +218,8 @@ def checkLoot():
                 time.sleep(2.5)
             else:
                 print('Returning to map')
-                gotoMap()
+
+    gotoMap()
 
 
 def startUp():
@@ -268,7 +273,7 @@ def close():
 def selectMap():
     time.sleep(1)
     click(1546, 445)
-    time.sleep(28)
+    time.sleep(29)
     click(1455, 315)
     time.sleep(0.5)
 
@@ -287,7 +292,7 @@ time.sleep(0.7)
 
 close()
 time.sleep(3)
-chapter = 1
+chapter = 12
 mapCount = 0
 
 gotoMap()
@@ -1094,14 +1099,14 @@ if pyautogui.locateOnScreen('Girl.png', region=(1000, 60, 920, 500), grayscale=T
             checkLoot()
             checkMap(chapter)
 
-        elif mapCount == 6:
+        elif mapCount == 10:
             time.sleep(1)
             pyautogui.moveTo(1455, 315)
             pyautogui.scroll(400)
             time.sleep(2)
 
         mapCount = mapCount + 1
-        if mapCount == 10:
+        if mapCount == 15:
             mapCount = 0
             chapter = chapter + 1
             checkMap(chapter)
